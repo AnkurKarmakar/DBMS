@@ -1,0 +1,1001 @@
+COLLEGEPHONENUMBER
+------------------
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+
+
+12349	   123049 Gita
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+
+
+12424	   124024 Ipsita
+Kaikhali	  25739608	 2004 CSE	    2 15-08-82
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+
+12250	   122050 Anita
+Hooghly 	  36719695	 2002 IT	    4 22-12-80
+
+
+12344	   123044 Biplab
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Howrah				 2003 IT	    3 03-01-82
+
+
+12357	   123057 Samik
+Barasat 	  25426742	 2003 IT	    3 15-07-81
+
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12419	   124019 Srijita
+Garia		  24755655	 2004 EE	    2 25-10-82
+
+
+12427	   124027 Saibal
+Garia		  24753306	 2004 ECE	    2 22-03-83
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12236	   122036 Santanu
+DumDum				 2002 ECE	    4 11-12-80
+
+
+12349	   123049 Gita
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+
+
+12424	   124024 Ipsita
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Kaikhali	  25739608	 2004 CSE	    2 15-08-82
+
+
+12250	   122050 Anita
+Hooghly 	  36719695	 2002 IT	    4 22-12-80
+
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12344	   123044 Biplab
+Howrah				 2003 IT	    3 03-01-82
+
+
+12357	   123057 Samik
+Barasat 	  25426742	 2003 IT	    3 15-07-81
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12419	   124019 Srijita
+Garia		  24755655	 2004 EE	    2 25-10-82
+
+
+12427	   124027 Saibal
+Garia		  24753306	 2004 ECE	    2 22-03-83
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+
+12236	   122036 Santanu
+DumDum				 2002 ECE	    4 11-12-80
+
+
+12349	   123049 Gita
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+
+
+
+27 rows selected.
+
+SQL> update student set CollegePhoneNumber=25739607;
+
+27 rows updated.
+
+SQL> select * from student;
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12424	   124024 Ipsita
+Kaikhali	  25739608	 2004 CSE	    2 15-08-82
+	  25739607
+
+12250	   122050 Anita
+Hooghly 	  36719695	 2002 IT	    4 22-12-80
+	  25739607
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12344	   123044 Biplab
+Howrah				 2003 IT	    3 03-01-82
+	  25739607
+
+12357	   123057 Samik
+Barasat 	  25426742	 2003 IT	    3 15-07-81
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+	  25739607
+
+12419	   124019 Srija
+Garia		  24755655	 2004 EE	    2 25-10-82
+	  25739607
+
+12427	   124027 Saibal
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Garia		  24753306	 2004 ECE	    2 22-03-83
+	  25739607
+
+12236	   122036 Santanu
+DumDum				 2002 ECE	    4 11-12-80
+	  25739607
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+	  25739607
+
+12349	   123049 Gita
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+	  25739607
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+	  25739607
+
+12424	   124024 Ipsita
+Kaikhali	  25739608	 2004 CSE	    2 15-08-82
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+	  25739607
+
+12250	   122050 Anita
+Hooghly 	  36719695	 2002 IT	    4 22-12-80
+	  25739607
+
+12344	   123044 Biplab
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Howrah				 2003 IT	    3 03-01-82
+	  25739607
+
+12357	   123057 Samik
+Barasat 	  25426742	 2003 IT	    3 15-07-81
+	  25739607
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12419	   124019 Srijita
+Garia		  24755655	 2004 EE	    2 25-10-82
+	  25739607
+
+12427	   124027 Saibal
+Garia		  24753306	 2004 ECE	    2 22-03-83
+	  25739607
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12236	   122036 Santanu
+DumDum				 2002 ECE	    4 11-12-80
+	  25739607
+
+12349	   123049 Gita
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+	  25739607
+
+12315	   123015 Kamal
+Kasba		  24424987	 2003 CSE	    3 19-09-81
+	  25739607
+
+12424	   124024 Ipsita
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Kaikhali	  25739608	 2004 CSE	    2 15-08-82
+	  25739607
+
+12250	   122050 Anita
+Hooghly 	  36719695	 2002 IT	    4 22-12-80
+	  25739607
+
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+12344	   123044 Biplab
+Howrah				 2003 IT	    3 03-01-82
+	  25739607
+
+12357	   123057 Samik
+Barasat 	  25426742	 2003 IT	    3 15-07-81
+	  25739607
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+
+12419	   124019 Srijita
+Garia		  24755655	 2004 EE	    2 25-10-82
+	  25739607
+
+12427	   124027 Saibal
+Garia		  24753306	 2004 ECE	    2 22-03-83
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+	  25739607
+
+12236	   122036 Santanu
+DumDum				 2002 ECE	    4 11-12-80
+	  25739607
+
+12349	   123049 Gita
+
+REGNO	   ROLLNO NAME
+------ ---------- --------------------------------------------------
+ADDRESS 	   PHONENO  YEAROFADM DEPT	 YEAR BIRTHDAT
+--------------- ---------- ---------- ---- ---------- --------
+COLLEGEPHONENUMBER
+------------------
+Kolkata 	  24428682	 2003 MCA	    3 14-04-81
+	  25739607
+
+
+27 rows selected.
+
+SQL> alter table student modify Name varchar2(20);
+
+Table altered.
+
+SQL> select * from student;
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12424	   124024 Ipsita	       Kaikhali 	 25739608	2004
+CSE	      2 15-08-82	   25739607
+
+12250	   122050 Anita 	       Hooghly		 36719695	2002
+IT	      4 22-12-80	   25739607
+
+12344	   123044 Biplab	       Howrah				2003
+IT	      3 03-01-82	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12357	   123057 Samik 	       Barasat		 25426742	2003
+IT	      3 15-07-81	   25739607
+
+12419	   124019 Srija 	       Garia		 24755655	2004
+EE	      2 25-10-82	   25739607
+
+12427	   124027 Saibal	       Garia		 24753306	2004
+ECE	      2 22-03-83	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12236	   122036 Santanu	       DumDum				2002
+ECE	      4 11-12-80	   25739607
+
+12315	   123015 Kamal 	       Kasba		 24424987	2003
+CSE	      3 19-09-81	   25739607
+
+12349	   123049 Gita		       Kolkata		 24428682	2003
+MCA	      3 14-04-81	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12315	   123015 Kamal 	       Kasba		 24424987	2003
+CSE	      3 19-09-81	   25739607
+
+12424	   124024 Ipsita	       Kaikhali 	 25739608	2004
+CSE	      2 15-08-82	   25739607
+
+12250	   122050 Anita 	       Hooghly		 36719695	2002
+IT	      4 22-12-80	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12344	   123044 Biplab	       Howrah				2003
+IT	      3 03-01-82	   25739607
+
+12357	   123057 Samik 	       Barasat		 25426742	2003
+IT	      3 15-07-81	   25739607
+
+12419	   124019 Srijita	       Garia		 24755655	2004
+EE	      2 25-10-82	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12427	   124027 Saibal	       Garia		 24753306	2004
+ECE	      2 22-03-83	   25739607
+
+12236	   122036 Santanu	       DumDum				2002
+ECE	      4 11-12-80	   25739607
+
+12349	   123049 Gita		       Kolkata		 24428682	2003
+MCA	      3 14-04-81	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12315	   123015 Kamal 	       Kasba		 24424987	2003
+CSE	      3 19-09-81	   25739607
+
+12424	   124024 Ipsita	       Kaikhali 	 25739608	2004
+CSE	      2 15-08-82	   25739607
+
+12250	   122050 Anita 	       Hooghly		 36719695	2002
+IT	      4 22-12-80	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12344	   123044 Biplab	       Howrah				2003
+IT	      3 03-01-82	   25739607
+
+12357	   123057 Samik 	       Barasat		 25426742	2003
+IT	      3 15-07-81	   25739607
+
+12419	   124019 Srijita	       Garia		 24755655	2004
+EE	      2 25-10-82	   25739607
+
+
+REGNO	   ROLLNO NAME		       ADDRESS		  PHONENO  YEAROFADM
+------ ---------- -------------------- --------------- ---------- ----------
+DEPT	   YEAR BIRTHDAT COLLEGEPHONENUMBER
+---- ---------- -------- ------------------
+12427	   124027 Saibal	       Garia		 24753306	2004
+ECE	      2 22-03-83	   25739607
+
+12236	   122036 Santanu	       DumDum				2002
+ECE	      4 11-12-80	   25739607
+
+12349	   123049 Gita		       Kolkata		 24428682	2003
+MCA	      3 14-04-81	   25739607
+
+
+27 rows selected.
+
+SQL> describe student;
+ Name					   Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ REGNO					   NOT NULL VARCHAR2(6)
+ ROLLNO 				   NOT NULL NUMBER(10)
+ NAME					   NOT NULL VARCHAR2(20)
+ ADDRESS				   NOT NULL VARCHAR2(15)
+ PHONENO					    NUMBER(10)
+ YEAROFADM				   NOT NULL NUMBER(4)
+ DEPTCODE				   NOT NULL VARCHAR2(4)
+ YEAR					   NOT NULL NUMBER(1)
+ BIRTHDATE				   NOT NULL DATE
+ COLLEGEPHONENUMBER				    NUMBER(10)
+
+SQL> alter table student modify Name varchar2(15);
+
+Table altered.
+
+SQL> alter table student add MarksObtained number(3);
+
+Table altered.
+
+SQL> select * from student;
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srija 	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+27 rows selected.
+
+SQL> update student set MarksObtained=90;
+
+27 rows updated.
+
+SQL> select * from student;
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607		  90
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607		  90
+
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607		  90
+
+12419	   124019 Srija 	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607		  90
+
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607		  90
+
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607		  90
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607		  90
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607		  90
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607		  90
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607		  90
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607		  90
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607		  90
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607		  90
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607		  90
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607		  90
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607		  90
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607		  90
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER MARKSOBTAINED
+---------- -------- ------------------ -------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607		  90
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607		  90
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607		  90
+
+
+27 rows selected.
+
+SQL> alter table student drop MarksObtained;
+alter table student drop MarksObtained
+                         *
+ERROR at line 1:
+ORA-00905: missing keyword
+
+
+SQL> alter table student drop column MarksObtained;
+
+Table altered.
+
+SQL> select * from student;
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srija 	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12315	   123015 Kamal 	  Kasba 	    24424987	   2003 CSE
+	 3 19-09-81	      25739607
+
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	      25739607
+
+12250	   122050 Anita 	  Hooghly	    36719695	   2002 IT
+	 4 22-12-80	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12344	   123044 Biplab	  Howrah			   2003 IT
+	 3 03-01-82	      25739607
+
+12357	   123057 Samik 	  Barasat	    25426742	   2003 IT
+	 3 15-07-81	      25739607
+
+12419	   124019 Srijita	  Garia 	    24755655	   2004 EE
+	 2 25-10-82	      25739607
+
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONENUMBER
+---------- -------- ------------------
+12427	   124027 Saibal	  Garia 	    24753306	   2004 ECE
+	 2 22-03-83	      25739607
+
+12236	   122036 Santanu	  DumDum			   2002 ECE
+	 4 11-12-80	      25739607
+
+12349	   123049 Gita		  Kolkata	    24428682	   2003 MCA
+	 3 14-04-81	      25739607
+
+
+27 rows selected.
+
+SQL> alter table student drop column MarksObtained;
+alter table student drop column MarksObtained
+                                *
+ERROR at line 1:
+ORA-00904: "MARKSOBTAINED": invalid identifier
+
+
+SQL> ALTER TABLE student ADD PRIMARY KEY (RegNo);
+ALTER TABLE student ADD PRIMARY KEY (RegNo)
+*
+ERROR at line 1:
+ORA-02437: cannot validate (A1.SYS_C004056) - primary key violated
+
+
+SQL> ALTER TABLE student ADD constraint RegNo primary key(RollNo);
+ALTER TABLE student ADD constraint RegNo primary key(RollNo)
+                                   *
+ERROR at line 1:
+ORA-02437: cannot validate (A1.REGNO) - primary key violated
+
+
+SQL> ALTER TABLE student ADD constraint RollNo primary key(RegNo); .
+  2  
+SQL> ALTER TABLE student ADD constraint RollNo primary key(RegNo); 
+ALTER TABLE student ADD constraint RollNo primary key(RegNo)
+                                   *
+ERROR at line 1:
+ORA-02437: cannot validate (A1.ROLLNO) - primary key violated
+
+
+SQL> ALTER TABLE student ADD CONSTRAINT RegNo PRIMARY KEY (RollNo);
+ALTER TABLE student ADD CONSTRAINT RegNo PRIMARY KEY (RollNo)
+                                   *
+ERROR at line 1:
+ORA-02437: cannot validate (A1.REGNO) - primary key violated
+
+
+SQL> ALTER TABLE student ADD CONSTRAINT RegNo PRIMARY KEY(RollNo);
+ALTER TABLE student ADD CONSTRAINT RegNo PRIMARY KEY(RollNo)
+                                   *
+ERROR at line 1:
+ORA-02437: cannot validate (A1.REGNO) - primary key violated
+
+
+SQL> ALTER TABLE student ADD CHECK (Year>=1 and Year<=4);
+
+Table altered.
+
+SQL> 
+

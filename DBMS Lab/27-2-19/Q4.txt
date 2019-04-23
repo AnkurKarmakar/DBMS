@@ -1,0 +1,191 @@
+
+linuxmint@ccl1-25 ~ $ sqlplus
+
+SQL*Plus: Release 10.2.0.1.0 - Production on Wed Feb 27 10:58:30 2019
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Enter user-name: A1
+Enter password: 
+
+Connected to:
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+
+SQL> Describe Faculty
+ Name					   Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ FACULTYCODE				   NOT NULL VARCHAR2(4)
+ FACULTYNAME				   NOT NULL VARCHAR2(15)
+ DATEOFJOIN				   NOT NULL DATE
+ DEPTCODE				   NOT NULL VARCHAR2(4)
+ SALARY 					    NUMBER(8,2)
+
+SQL> Show FACULTY
+SP2-0158: unknown SHOW option "FACULTY"
+SQL> SELECT * FROM FACULTY
+  2  
+SQL> Select * FROM Faculty
+  2  
+SQL> Select * FROM DEPARTMENT
+  2  
+SQL> 
+SQL> SELECT * FROM DEPARTMENT;
+
+DEPT DEPTNAME	     HOD
+---- --------------- ----
+CSE  COMPUTER	     AK
+PHYS ELECTRONIC      IM
+IT   INFOTECH	     SS
+BBA  COMPAPP	     SC
+HUM  HUMANITIES      DC
+MTHS MATHS	     KKS
+
+6 rows selected.
+
+SQL> SELECT * FROM FACULTY;
+
+FACU FACULTYNAME     DATEOFJO DEPT     SALARY
+---- --------------- -------- ---- ----------
+FHH  ANANYA MAM      15-02-85 CSE
+FAA  IVY MAM	     25-08-85 IT
+FBB  PHULTULI MAM    03-08-99 CSE
+FCC  PAPRI MAM	     13-05-15 PHYS
+FDD  KKS MAM	     15-02-05 MTHS
+FEE  DCD MAM	     14-05-98 HUM
+
+6 rows selected.
+
+SQL> CREATE TABLE SUBJECT(
+SUBJECTCODE VARCHAR2(4) NOT NULL PRIMARY KEY,
+SUBJECTNAME VARCHAR2(15) NOT NULL,
+FACULTY VARCHAR2(4) NOT NULL FOREIGN KEY REFERENCES FACULTY (FACULTYCODE));  2            
+  5  
+SQL> CREATE TABLE SUBJECT(
+SUBJECTCODE VARCHAR2(4) NOT NULL PRIMARY KEY,
+SUBJECTNAME VARCHAR2(15) NOT NULL,
+FACULTY VARCHAR2(4) NOT NULL FOREIGN KEY REFERENCES FACULTY (FACULTYCODE));  2    3    4  
+FACULTY VARCHAR2(4) NOT NULL FOREIGN KEY REFERENCES FACULTY (FACULTYCODE))
+                             *
+ERROR at line 4:
+ORA-00907: missing right parenthesis
+
+
+SQL> CREATE TABLE SUBJECT(
+SUBJECTCODE VARCHAR2(4) NOT NULL PRIMARY KEY,
+SUBJECTNAME VARCHAR2(15) NOT NULL,
+FACULTYCODE VARCHAR2(4) NOT NULL,
+FOREIGN KEY (FACULTYCODE) REFERENCES FACULTY (FACULTYCODE));  2    3    4    5  
+
+Table created.
+
+SQL> INSERT INTO SUBJECT VALUES('CS01', 'DBMS', 'FHH');
+
+1 row created.
+
+SQL> INSERT INTO SUBJECT VALUES('IT01', 'SOFTWARE', 'FAA');
+INSERT INTO SUBJECT VALUES('CS02', 'OS', 'FBB');
+INSERT INTO SUBJECT VALUES('PH01', 'LIGHT', 'FCC');
+INSERT INTO SUBJECT VALUES('M01', 'ALGEBRA', 'FDD');
+INSERT INTO SUBJECT VALUES('HU01', 'CHARECTER', 'FEE');
+1 row created.
+
+SQL> 
+1 row created.
+
+SQL> 
+1 row created.
+
+SQL> 
+1 row created.
+
+SQL> DESCRIBE SUBJECT;
+ Name					   Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SUBJECTCODE				   NOT NULL VARCHAR2(4)
+ SUBJECTNAME				   NOT NULL VARCHAR2(15)
+ FACULTYCODE				   NOT NULL VARCHAR2(4)
+
+SQL> SELECT * FROM SUBJECT;
+
+SUBJ SUBJECTNAME     FACU
+---- --------------- ----
+CS01 DBMS	     FHH
+IT01 SOFTWARE	     FAA
+CS02 OS 	     FBB
+PH01 LIGHT	     FCC
+M01  ALGEBRA	     FDD
+
+
+SQL> SELECT DEPTCODE,COUNT(*) FROM FACULTY GROUP BY DEPTCODE;
+
+DEPT   COUNT(*)
+---- ----------
+IT	      1
+CSE	      2
+PHYS	      1
+MTHS	      1
+HUM	      1
+
+
+
+SQL> UPDATE FACULTY SET SALARY = SALARY + 500.00;
+
+6 rows updated.
+
+SQL> SELECT * FROM FACULTY;
+
+FACU FACULTYNAME     DATEOFJO DEPT     SALARY
+---- --------------- -------- ---- ----------
+FHH  ANANYA MAM      15-02-85 CSE     50500.5
+FAA  IVY MAM	     25-08-85 IT      50500.5
+FBB  PHULTULI MAM    03-08-99 CSE     50500.5
+FCC  PAPRI MAM	     13-05-15 PHYS    50500.5
+FDD  KKS MAM	     15-02-05 MTHS    50500.5
+FEE  DCD MAM	     14-05-98 HUM     50500.5
+
+6 rows selected.
+
+
+SQL> (SELECT NAME FROM STUDENT WHERE STUDENT.NAME LIKE 'S%') UNION (SELECT FACULTYNAME FROM FACULTY WHERE FACULTY.FACULTYNAME LIKE 'S%');
+
+NAME
+---------------
+Saibal
+Samik
+Santanu
+Srijita
+
+
+
+SQL> SELECT * FROM STUDENT WHERE ADDRESS = 'Kaikhali';
+
+REGNO	   ROLLNO NAME		  ADDRESS	     PHONENO  YEAROFADM DEPT
+------ ---------- --------------- --------------- ---------- ---------- ----
+      YEAR BIRTHDAT COLLEGEPHONE
+---------- -------- ------------
+12424	   124024 Ipsita	  Kaikhali	    25739608	   2004 CSE
+	 2 15-08-82	25739607
+
+
+SQL> SELECT FACULTYNAME FROM FACULTY WHERE DEPTCODE = 'IT';
+
+FACULTYNAME
+---------------
+IVY MAM
+
+
+SQL> SELECT * FROM DEPARTMENT WHERE HOD IS NOT NULL;
+
+DEPT DEPTNAME	     HOD
+---- --------------- ----
+CSE  COMPUTER	     AK
+PHYS ELECTRONIC      IM
+IT   INFOTECH	     SS
+BBA  COMPAPP	     SC
+HUM  HUMANITIES      DC
+MTHS MATHS	     KKS
+
+6 rows selected.
+
+
+

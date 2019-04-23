@@ -1,0 +1,11 @@
+delete from student where RollNo = 123001 and DeptCode = 'CSE' and Year = 3;
+select DeptCode,count(DeptCode) as NoOfStudent from student Group By DeptCode;
+update student set Address='Kolkata' where RollNo=123049 and Name='Gita';
+alter table student add CollegePhoneNumber number(10);
+update student set CollegePhoneNumber=25739607;
+alter table student modify Name varchar2(15);
+alter table student add MarksObtained number(3);
+update student set MarksObtained=90;
+alter table student drop column MarksObtained;
+ALTER TABLE student ADD CONSTRAINT RegNo PRIMARY KEY(RollNo);
+ALTER TABLE student ADD CHECK (Year>=1 and Year<=4); 
